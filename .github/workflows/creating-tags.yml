@@ -17,9 +17,11 @@ jobs:
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
 
-      - run: |
-          echo ${{ steps.release.outputs.minor }}
-          echo ${{ steps.release.outputs.major }}
+      - name: tag major and minor versions
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          echo major: ${{ steps.release.outputs.minor }}
+          echo minor: ${{ steps.release.outputs.major }}
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git remote add gh-token "https://${{ secrets.GITHUB_TOKEN }}@github.com/google-github-actions/release-please-action.git"

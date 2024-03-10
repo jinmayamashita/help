@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jinmayamashita/help.git"
+		"url": "git+https://github.com/jinmayamashita/help.git"
 	},
 	"homepage": "https://github.com/jinmayamashita/help#readme",
 	"type": "module",

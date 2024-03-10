@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/jinmayamashita/help/compare/v1.5.0...v1.6.0) (2024-03-10)
+
+
+### Features
+
+* update greeting func ([e2ae1a9](https://github.com/jinmayamashita/help/commit/e2ae1a9e02b149eab71f26bd28bd2e41833f546c))
+
 ## [1.5.0](https://github.com/jinmayamashita/help/compare/v1.4.0...v1.5.0) (2024-03-10)
 
 

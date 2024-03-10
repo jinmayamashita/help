@@ -1,0 +1,30 @@
+{
+	"name": "@jinmayamashita/help",
+	"version": "1.0.0",
+	"description": "JavaScript module that provides a set of helper functions",
+	"author": "Jinma Yamashita",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jinmayamashita/help.git"
+	},
+	"homepage": "https://github.com/jinmayamashita/help#readme",
+	"type": "module",
+	"types": "dist/index.d.ts",
+	"main": "dist/index.js",
+	"module": "src/index.ts",
+	"sideEffects": false,
+	"files": ["build", "src", "!src/**/*.test.ts"],
+	"devDependencies": {
+		"@types/bun": "1.0.8",
+		"@biomejs/biome": "1.6.0",
+		"typescript": "5.4.2",
+		"bun-plugin-dts": "0.2.1"
+	},
+	"scripts": {
+		"lint": "biome ci .",
+		"type": "tsc --noEmit",
+		"build": "bun run build.mjs",
+		"prepublishOnly": "bun run build"
+	}
+}

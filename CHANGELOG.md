@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/jinmayamashita/help/compare/v1.3.0...v1.4.0) (2024-03-10)
+
+
+### Features
+
+* Update publish-to-npm.yml ([3bcd21a](https://github.com/jinmayamashita/help/commit/3bcd21a8d7efad8e2fc9afa1bd3bb870e64ae8b9))
+* Update publish-to-npm.yml 2 ([22edffc](https://github.com/jinmayamashita/help/commit/22edffc84f9d4b7f71be91e39af51cecfc3b267e))
+* Update publish-to-npm.yml 3 ([b760a66](https://github.com/jinmayamashita/help/commit/b760a66d5e5165440b546e78f0aced84063576c8))
+
 ## [1.3.0](https://github.com/jinmayamashita/help/compare/v1.2.0...v1.3.0) (2024-03-10)
 
 

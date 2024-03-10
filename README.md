@@ -1,8 +1,8 @@
-# @jinmayamashita/help
+# help
 
-## Description
+[![CI](https://github.com/jinmayamashita/help/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jinmayamashita/help/actions/workflows/ci.yml)
 
-`@jinmayamashita/help` is a JavaScript module that provides a set of helper functions.
+A JavaScript module that provides a set of helper functions.
 
 ## Installation
 

@@ -14,11 +14,7 @@
 	"main": "dist/index.js",
 	"module": "src/index.ts",
 	"sideEffects": false,
-	"files": [
-		"build",
-		"src",
-		"!src/**/*.test.ts"
-	],
+	"files": ["build", "src", "!src/**/*.test.ts"],
 	"devDependencies": {
 		"@types/bun": "1.0.8",
 		"@biomejs/biome": "1.6.0",

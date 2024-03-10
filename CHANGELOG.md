@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/jinmayamashita/help/compare/v1.4.0...v1.5.0) (2024-03-10)
+
+
+### Features
+
+* add greeting ([4a67ae2](https://github.com/jinmayamashita/help/commit/4a67ae27f2ea1b8f7792ade44f566d82df60f694))
+
 ## [1.4.0](https://github.com/jinmayamashita/help/compare/v1.3.0...v1.4.0) (2024-03-10)
 
 

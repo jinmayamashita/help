@@ -1,4 +1,4 @@
-name: Release
+name: Release note
 
 on:
   push:
@@ -20,8 +20,3 @@ jobs:
       - run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      - name: Publish package to NPM 📦
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

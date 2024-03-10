@@ -1,17 +1,10 @@
 name: CI
 
-on:
-  push:
-    branches:
-      - main
-
-  pull_request:
-    branches:
-      - main
+on: push
 
 jobs:
   test:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
@@ -40,4 +33,4 @@ jobs:
       
       - name: Run test
         run: |
-          bun run test
+          bun test

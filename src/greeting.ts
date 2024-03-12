@@ -1,3 +1,3 @@
 export function greeting(name: string): string {
-  return `Hello, ${name || "Strangers"}!`;
+  return `Hello, ${name || "Stranger"}!`;
 }

@@ -10,6 +10,6 @@ describe("greeting", () => {
 
   test("should return a default greeting message when no name is provided", () => {
     const result = greeting("");
-    expect(result).toBe("Hello, Strangers!");
+    expect(result).toBe("Hello, Stranger!");
   });
 });
